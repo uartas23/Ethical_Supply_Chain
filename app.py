@@ -28,6 +28,8 @@ Step 4: GenAI Drafting (Generate the formal compliance clause based on their cho
 Step 5: Audit Checklist (Generate 5 actionable, specific audit questions to evaluate the vendor against the drafted clause).
 
 Keep your tone professional, consultative, and encouraging. Focus heavily on 'Responsible Business' principles.
+
+Formatting rule: Maintain consistent text size. Use bold text (**text**) for list items and emphasis. Strictly DO NOT use Markdown headers (# or ##) when generating lists or clauses.
 """
 
 # --- MAIN APP LOGIC ---
