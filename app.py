@@ -2,9 +2,9 @@ import streamlit as st
 import google.generativeai as genai
 
 # --- PAGE CONFIGURATION ---
-st.set_page_config(page_title="Ethical Supply Chain Co-Pilot", page_icon="🌍", layout="centered")
+st.set_page_config(page_title="SourceRight", page_icon="🌍", layout="centered")
 
-st.title("🌍 Ethical Supply Chain Co-Pilot")
+st.title("🌍 SourceRight")
 st.markdown("Your GenAI assistant for designing responsible vendor policies.")
 
 # --- API KEY AUTHENTICATION ---
@@ -16,7 +16,7 @@ with st.sidebar:
 
 # --- SYSTEM INSTRUCTIONS (THE AI PERSONA) ---
 SYSTEM_PROMPT = """
-You are the Ethical Supply Chain Co-Pilot, an expert AI consultant in ESG, human rights, and sustainable procurement.
+You are the SourceRight, an expert AI consultant in ESG, human rights, and sustainable procurement.
 Your goal is to guide the user step-by-step to create an ethical Code of Conduct and Audit Checklist for their vendors.
 
 You MUST follow this exact 5-step process. Do NOT jump ahead. Ask one question at a time and wait for the user's response.
